@@ -167,13 +167,13 @@ function update_tiles(){ // for all tiles to load on start or other events
 }
 */
 
-var zip = "97202"; // changes when searching valid zips / or when zip is saved
+var zip = "11421"; // changes when searching valid zips / or when zip is saved
 var oldzip = "";
 var weather = ["@w","weather/01d","Weather","Updating...","weather"]; // default tile
 
 function update_weather(num){
   var api = "676fed7baf0fa449b76b320a14187224";
-  var url = "http://api.openweathermap.org/data/2.5/weather?zip="+ zip + ",us&appid=" + api;
+  var url = "https://api.openweathermap.org/data/2.5/weather?zip="+ zip + ",us&appid=" + api;
 
   if (num != undefined){
     set_tile(num, [url,"50px",images[weather[1]],weather[2],weather[3]]); // placeholder tile

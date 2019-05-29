@@ -142,7 +142,7 @@ var pages = {
     ["$","lv","Lava","Red Black",["#000000","#D32F2F","#DD4132","#99AAB5","#99AAB5"]],
     ["$","tt","Purple","Purple Red Blue",["#6B5B95","#FF383F","#223A5E","#F0EDE5","#F0EDE5"]],
     ["$","bl","Blues","Blue, Grey",["#25274D","#2E9CCA","#29648A","#AAABB8","#ffffff"]],
-    //["$","pnr","Starry Night","Blue Green Yellow",["src/wall/starry.jpg","#007849","#FECE00","#FFFFFF","#FFFFFF"]],
+    ["$","pnr","Starry Night","Blue Green Yellow",["src/wall/starry.jpg","#007849","#FECE00","#FFFFFF","#FFFFFF"]],
     ["$","drc","Dracula","Grey Green Purple",['#282a36','#6272a4','#bd93f9','#50fa7b','#f8f8f2']],
   ]
 };

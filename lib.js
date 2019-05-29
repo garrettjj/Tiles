@@ -50,7 +50,7 @@ var pages = {
     ["~Github"], // example of reference
     ["https://gmail.com","gm","Gmail","Inboxes","google"],
     ["https://todoist.com/app#start","td","Todoist","Tasks"],
-    ["https://pcpartpicker.com","pc","PcParts","Pcpartpicker"],
+    ["https://pinboard.in","pin","Pinboard","Saved Articles"],
     ["~News"],
     ["~Media"],
     ["~Networks"],
@@ -95,6 +95,7 @@ var pages = {
     ["https://keycode.info","ct","Keycodes","Javascript"],
   ],
   "Networks":[
+    ["https://tweetdeck.twitter.com","twd","Tweetdeck","Super Twitter"]
     ["https://twitter.com","~twitter","Twitter","Internet News"],
     ["https://facebook.com","fa","Facebook","Delete me"],
     ["https://reddit.com/","re","Reddit","r/unixporn"],

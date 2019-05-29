@@ -95,7 +95,7 @@ var pages = {
     ["https://keycode.info","ct","Keycodes","Javascript"],
   ],
   "Networks":[
-    ["https://tweetdeck.twitter.com","twd","Tweetdeck","Super Twitter"]
+    ["https://tweetdeck.twitter.com","twd","Tweetdeck","Super Twitter"],
     ["https://twitter.com","~twitter","Twitter","Internet News"],
     ["https://facebook.com","fa","Facebook","Delete me"],
     ["https://reddit.com/","re","Reddit","r/unixporn"],

@@ -247,13 +247,13 @@ function dict_tile(num,current){
 
 function update_news(tile){
   var start = "https://newsapi.org/v2/top-headlines?sources=";
-  var api = ""; // need to get an api key to use this feature
+  var api = "af43f67b9e7a4b26a0d6e585d4f79c92"; // need to get an api key to use this feature
   if (api == ""){
     tile[2] = "No Api Key";
     console.log("need api key for this");
     return;
   }
-  url = start + tile[0] + api;
+  url = start + tile[0] + "&apiKey=" + api;
   var request = new Request(url);
   fetch(request).then(function(request) {
     return request.json();

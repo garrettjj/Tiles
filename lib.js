@@ -39,7 +39,7 @@ var pages = {
     ["https://github.com","gh","Github","Repos"],
     // folders
     ["#","go","Themes","Colors"],
-    ["#","~e_learning","News","Headlines"],
+    ["#","~rss","News","Headlines"],
     ["#","~ctrl","Keyboards","Ctrl Alt Del"],
     ["#","me","Media","Stream"],
     ["#","~twitter","Networks","Social Media"],
